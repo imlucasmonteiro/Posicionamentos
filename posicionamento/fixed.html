@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>fixed</title>
+
+    <style>
+        html,
+        body,
+        h1 {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            background-color: beige;
+        }
+
+        section {
+            display: block;
+        }
+
+        article,
+        aside,
+        section,
+        header,
+        footer,
+        nav {
+            display: block;
+        }
+
+        main {
+            height: 3000px;
+            width: 660px;
+            background-color: rgb(236, 236, 236);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14px;
+            box-shadow: 0 0 10px #666;
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+        #principal {
+            background-color: rgb(192, 192, 192);
+            border: 1px dotted #666666;
+            margin-top: 20px;
+            position: fixed;
+        }
+
+        section {
+            height: 100px;
+            width: 100px;
+            padding: 10px;
+        }
+
+        .janela1 {
+            background-color: green;
+            position: fixed;
+            width: 100%;
+            height: 100px;
+            top: 0px;
+            left: 0px;
+
+        }
+
+        .janela2 {
+            background-color: orange;
+
+        }
+
+        .janela3 {
+            background-color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <h1>Exercicios de posicionamentos</h1>
+        <p>Nesses exemplos vamos ver os diversos tipos de posicionamentos <strong>static, relative, absolute, fixed,
+                sticky</strong></p>
+        <p>Cada propriedade serve para um propósito</p>
+
+        <div id="principal">
+            <section class="janela1">Verde</section>
+            <section class="janela2">Amarelo</section>
+            <section class="janela3">Azul</section>
+    </main>
+    </div>
+</body>
+
+</html>
