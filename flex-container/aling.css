@@ -1,31 +1,62 @@
 .container {
     max-width: 420px;
-    margin: 300 auto;
     margin: 0 auto;
     display: flex;
-    border: 3px solid rebeccapurple;
+    border: 1px solid rebeccapurple;
     flex-wrap: wrap;
 }
 
 .item {
     flex: 1;
     margin: 5px;
-    padding:  0 10px;
-    background: rgb(255, 99, 71);
+    padding: 0 10px;
+    background: rgb(71, 187, 255);
     text-align: center;
     font-size: 1.5em;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-end {
+    align-items: end;
+}
+
+.center {
+    align-items: center;
+}
+
+.center-baseline {
+    align-items: baseline;
+}
+
+.alinhamento-central {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.alinhamento-central .item {
+    flex: 0;
+    padding: 10px;
+}
+
+.item:first-child {
+    padding-top: 20px;
 }
 
 .stretch {
     align-content: stretch;
 }
 
-
 h1 {
     text-align: center;
     margin: 20px 0 0 0;
     font-size: 1.25em;
     font-weight: normal;
+
 }
 
 body {

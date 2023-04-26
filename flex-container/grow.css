@@ -1,0 +1,45 @@
+.items1 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.items2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 204, 255); 
+    flex-grow: 2;
+}
+
+
+.items3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(21, 255, 0);
+    flex-grow: 3;
+}
+
+.items4 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 0, 0);
+    flex-grow: 4;
+}
+
+.container {
+    width: 100%;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    background-color: rgba(13, 65, 0, 0.973);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.items1 {
+    background-color: blue;
+    flex-grow: 1;
+    flex-basis: 400px;
+    flex:  1 1 400px;
+}
+
+.items2 {
+    background-color: rgb(0, 204, 255); 
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+
+.items3 {
+    background-color: rgb(21, 255, 0);
+    flex-grow: 1;
+    flex-shrink: 3;
+    flex-basis: 400px;
+    
+}
+
+.items4 {
+    background-color: rgb(0, 204, 255); 
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+.container {
+    width: 100%;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    background-color: rgba(13, 65, 0, 0.973);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
